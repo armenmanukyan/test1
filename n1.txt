@@ -1,0 +1,21 @@
+Write a program that acts as a phonebook and support following methods 
+
+addContact(String firstName, String lastName, String phoneNumber);
+
+
+getContactList();
+
+
+findContactById(int id);
+
+
+findContactByName(String filterText);
+
+example: findContactByName("Adolf Hit") returns a List of contacts with one element, "Adolf Hitler"
+
+deleteContact(int id);
+
+
+updateContact(int id, String firstName, String lastName)
+
+All Db.java methods MUST communicate with main through Contact objects
