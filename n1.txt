@@ -16,6 +16,6 @@ example: findContactByName("Adolf Hit") returns a List of contacts with one elem
 deleteContact(int id);
 
 
- updateContact(int id, String firstName, String lastName)
+ UpdateContact(int id, String firstName, String lastName)
 
 All Db.java methods MUST communicate with main through Contact objects
